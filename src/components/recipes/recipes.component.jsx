@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-import Card from "./card/card.component"
+import Card from "../card/card.component"
 
 import "./recipes.styles.scss"
 
@@ -57,8 +57,8 @@ export const Recipes = (props) => {
         gap: "4rem",
       }}>
         {recipes.map(recipe => (
-          <SplideSlide>
-            <Card key={recipe.id} recipe={recipe} />
+          <SplideSlide key={recipe.id}>
+            <Card recipe={recipe} />
           </SplideSlide>
         ))}
       </Splide>
