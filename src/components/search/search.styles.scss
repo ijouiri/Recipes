@@ -2,5 +2,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color:black;
+
+  form{
+    width: 70%;
+    margin-top:3rem;
+  }
+    input{
+      position: relative;
+      width: 100%;
+      height: 2rem;
+      outline: none;
+      border-radius: 0.24rem;
+      border: none;
+      padding: 0 2.4rem;
+      color: white;
+      background: linear-gradient(35deg, rgba(60, 60, 60, 1), rgba(113, 113, 113, 1));
+    }
+    svg{
+      position: absolute;
+      color: white;
+      z-index: 10;
+      transform: translate(50%, 40%);
+      font-size: 1.2rem;
+    }
 }
