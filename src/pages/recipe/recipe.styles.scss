@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  .intro {
+    text-align: center;
+    h1{
+      text-align: center;
+    }
+    img{
+      width: 80%; 
+    }
+  }
+
+  .two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2.7rem;
+  }
+
+  .info{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    min-width: 400px;
+    padding: 1rem;
+  }
+
+  ul {
+    text-align: center;
+    list-style: none;
+    line-height: 2rem;
+  }
+}
+
+button{
+  padding: 0.4rem;
+  border-radius: 0.24rem;
+  border: none;
+  margin: 0.4rem;
+  background: linear-gradient(35deg, rgba(62, 62, 62, 1), rgba(180, 180, 180, 1));
+  color: white;
+  outline:none;
+
+  &:active{
+    transform: scale(0.9);
+  }
+
+  &.active{
+    background: linear-gradient(to right, rgba(255, 52, 0, 1),rgba(255, 91, 32, 1))
+  }
+}

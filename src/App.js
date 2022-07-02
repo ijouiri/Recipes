@@ -3,7 +3,7 @@ import Home from "./pages/home";
 import Header from "./pages/header"
 import { Cuisine } from "./pages/cuisine"
 import { Searched } from "./pages/searched"
-import { Recipe } from "./pages/recipe"
+import { Recipe } from "./pages/recipe/recipe"
 
 
 import { Component } from "react";
