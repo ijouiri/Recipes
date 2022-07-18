@@ -57,8 +57,8 @@ export const Recipes = (props) => {
         gap: "4rem",
       }}>
         {recipes.map(recipe => (
-          <SplideSlide key={recipe.id}>
-            <Card recipe={recipe} />
+          <SplideSlide>
+            <Card key={recipe.id} recipe={recipe} />
           </SplideSlide>
         ))}
       </Splide>

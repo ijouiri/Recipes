@@ -1,7 +1,4 @@
-import { useEffect, useState } from "react"
 import { Recipes } from "../components/recipes/recipes.component"
-
-
 
 const Home = () => {
   return <div>
